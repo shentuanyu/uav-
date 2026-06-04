@@ -1,0 +1,42 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE / editor metadata
+.idea/
+.vscode/
+.obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training outputs and model checkpoints
+runs/
+runs2/
+runs3/
+runs4/
+eval_outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
