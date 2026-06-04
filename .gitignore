@@ -25,16 +25,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Training outputs and model checkpoints
-runs/
-runs2/
-runs3/
-runs4/
+# Evaluation outputs
 eval_outputs/
-checkpoints/
-*.pt
-*.pth
-*.ckpt
 
 # Logs and temporary files
 *.log
